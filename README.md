@@ -1,6 +1,6 @@
 # Projeto_Final
 Projeto Final Bi Master - Business Intelligence Master
-#### Aluno: [Silvana Silva](https://github.com/link_do_github)
+#### Aluno: [Silvana de Jesus Silva](https://github.com/link_do_github)
 #### Orientadora: [Manoela Kohler](https://github.com/manoelakohler)
 ---
 
