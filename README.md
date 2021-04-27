@@ -19,7 +19,7 @@ Tanto o mundo científico quanto o empresarial está cada vez mais está preocup
 
 Pensando nisso, o objetivo desse trabalho é auxiliar na identificação se o paciente será diagnosticado com alguma condição de saúde mental (coluna 'Have you been diagnosed with a mental health condition by a medical professional?').
 
-Utilizamos uma base do Kaggle https://www.kaggle.com/ron2112/mental-health-data para iniciarmos esse estudo, embora os dados estejam em inglês,  os conceitos básicos são os mesmos, os mesmos tipos de sintomas são sentidos em qualquer lugar do mundo.
+Utilizamos uma base do Kaggle (https://www.kaggle.com/ron2112/mental-health-data) para iniciarmos esse estudo, embora os dados estejam em inglês,  os conceitos básicos são os mesmos, os mesmos tipos de sintomas são sentidos em qualquer lugar do mundo.
 
 ### Introdução
 
