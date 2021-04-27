@@ -30,6 +30,12 @@ Utilizamos uma base do Kaggle para iniciarmos esse estudo, embora os dados estej
 ### Resultados
 
 ### Conclusão
+
+O modelo com a melhor acurácia...
+
+### Considerações finais
+
+Gostaria de agradecer à professora Manoela Kohler pelas aulas e orientação nesse trabalho.
 ---
 
 Matrícula: 192.671.163
