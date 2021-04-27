@@ -35,7 +35,8 @@ O modelo com a melhor acurácia...
 
 ### Considerações finais
 
-Gostaria de agradecer à professora Manoela Kohler pelas aulas e orientação nesse trabalho.
+Gostaria de agradecer a todos os professores do curso e em especial à professora Manoela Kohler pelas aulas e orientação nesse trabalho.
+
 ---
 
 Matrícula: 192.671.163
