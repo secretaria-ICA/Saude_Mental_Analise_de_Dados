@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="9.9.000">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="9.9.000" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="read_csv" compatibility="9.9.000" expanded="true" height="68" name="Read CSV" width="90" x="45" y="340">
+        <parameter key="csv_file" value="C:\Users\Usuario\Documents\BI Master\Trabalho Final\mental-health-data\Mental Health Data.csv"/>
+        <parameter key="column_separators" value=","/>
+        <parameter key="trim_lines" value="false"/>
+        <parameter key="use_quotes" value="false"/>
+        <parameter key="quotes_character" value="'"/>
+        <parameter key="escape_character" value="\"/>
+        <parameter key="skip_comments" value="true"/>
+        <parameter key="comment_characters" value="#"/>
+        <parameter key="starting_row" value="1"/>
+        <parameter key="parse_numbers" value="true"/>
+        <parameter key="decimal_character" value="."/>
+        <parameter key="grouped_digits" value="false"/>
+        <parameter key="grouping_character" value=","/>
+        <parameter key="infinity_representation" value=""/>
+        <parameter key="date_format" value=""/>
+        <parameter key="first_row_as_names" value="true"/>
+        <list key="annotations"/>
+        <parameter key="time_zone" value="SYSTEM"/>
+        <parameter key="locale" value="English (United States)"/>
+        <parameter key="encoding" value="windows-1252"/>
+        <parameter key="read_all_values_as_polynominal" value="false"/>
+        <list key="data_set_meta_data_information">
+          <parameter key="0" value="Are you self-employed?.true.integer.attribute"/>
+          <parameter key="1" value="How many employees does your company or organization have?.true.polynominal.attribute"/>
+          <parameter key="2" value="Is your employer primarily a tech company/organization?.true.integer.attribute"/>
+          <parameter key="3" value="Is your primary role within your company related to tech/IT?.true.integer.attribute"/>
+          <parameter key="4" value="Does your employer provide mental health benefits as part of healthcare coverage?.true.polynominal.attribute"/>
+          <parameter key="5" value="Do you know the options for mental health care available under your employer-provided coverage?.true.polynominal.attribute"/>
+          <parameter key="6" value="&quot;Has your employer ever formally discussed mental health (for example.true.polynominal.attribute"/>
+          <parameter key="7" value="as part of a wellness campaign or other official communication)?&quot;.true.polynominal.attribute"/>
+          <parameter key="8" value="Does your employer offer resources to learn more about mental health concerns and options for seeking help?.true.polynominal.attribute"/>
+          <parameter key="9" value="&quot;If a mental health issue prompted you to request a medical leave from work.true.polynominal.attribute"/>
+          <parameter key="10" value="asking for that leave would be:&quot;.true.polynominal.attribute"/>
+          <parameter key="11" value="Would you feel comfortable discussing a mental health disorder with your coworkers?.true.polynominal.attribute"/>
+          <parameter key="12" value="Do you feel that your employer takes mental health as seriously as physical health?.true.polynominal.attribute"/>
+          <parameter key="13" value="Do you know local or online resources to seek help for a mental health disorder?.true.polynominal.attribute"/>
+          <parameter key="14" value="Do you believe your productivity is ever affected by a mental health issue?.true.polynominal.attribute"/>
+          <parameter key="15" value="&quot;If yes.true.polynominal.attribute"/>
+          <parameter key="16" value="what percentage of your work time (time performing primary or secondary job functions) is affected by a mental health issue?&quot;.true.polynominal.attribute"/>
+          <parameter key="17" value="How willing would you be to share with friends and family that you have a mental illness?.true.polynominal.attribute"/>
+          <parameter key="18" value="Do you have a family history of mental illness?.true.polynominal.attribute"/>
+          <parameter key="19" value="Have you had a mental health disorder in the past?.true.polynominal.attribute"/>
+          <parameter key="20" value="Do you currently have a mental health disorder?.true.polynominal.attribute"/>
+          <parameter key="21" value="Have you been diagnosed with a mental health condition by a medical professional?.true.polynominal.label"/>
+          <parameter key="22" value="&quot;If so.true.polynominal.attribute"/>
+          <parameter key="23" value="what condition(s) were you diagnosed with?&quot;.true.polynominal.attribute"/>
+          <parameter key="24" value="Have you ever sought treatment for a mental health issue from a mental health professional?.true.polynominal.attribute"/>
+          <parameter key="25" value="If you have a mental health issue.true.polynominal.attribute"/>
+          <parameter key="26" value="do you feel that it interferes with your work when being treated effectively?&quot;.true.polynominal.attribute"/>
+          <parameter key="27" value="&quot;If you have a mental health issue.true.polynominal.attribute"/>
+          <parameter key="28" value="do you feel that it interferes with your work when NOT being treated effectively?&quot;.true.polynominal.attribute"/>
+          <parameter key="29" value="What is your age?.true.polynominal.attribute"/>
+          <parameter key="30" value="What is your gender?.true.polynominal.attribute"/>
+          <parameter key="31" value="What country do you live in?.true.polynominal.attribute"/>
+          <parameter key="32" value="What US state or territory do you live in?.true.polynominal.attribute"/>
+          <parameter key="33" value="What country do you work in?.true.polynominal.attribute"/>
+          <parameter key="34" value="What US state or territory do you work in?.true.polynominal.attribute"/>
+          <parameter key="35" value="Which of the following best describes your work position?.true.polynominal.attribute"/>
+          <parameter key="36" value="Do you work remotely?.true.polynominal.attribute"/>
+        </list>
+        <parameter key="read_not_matching_values_as_missings" value="false"/>
+      </operator>
+      <operator activated="true" class="nominal_to_numerical" compatibility="9.9.000" expanded="true" height="103" name="Nominal to Numerical" width="90" x="179" y="340">
+        <parameter key="return_preprocessing_model" value="false"/>
+        <parameter key="create_view" value="false"/>
+        <parameter key="attribute_filter_type" value="all"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="coding_type" value="dummy coding"/>
+        <parameter key="use_comparison_groups" value="false"/>
+        <list key="comparison_groups"/>
+        <parameter key="unexpected_value_handling" value="all 0 and warning"/>
+        <parameter key="use_underscore_in_name" value="false"/>
+      </operator>
+      <operator activated="true" class="split_data" compatibility="9.9.000" expanded="true" height="103" name="Split Data" width="90" x="313" y="340">
+        <enumeration key="partitions">
+          <parameter key="ratio" value="0.8"/>
+          <parameter key="ratio" value="0.2"/>
+        </enumeration>
+        <parameter key="sampling_type" value="automatic"/>
+        <parameter key="use_local_random_seed" value="false"/>
+        <parameter key="local_random_seed" value="1992"/>
+      </operator>
+      <operator activated="true" class="replace_missing_values" compatibility="9.9.000" expanded="true" height="103" name="Replace Missing Values" width="90" x="447" y="238">
+        <parameter key="return_preprocessing_model" value="false"/>
+        <parameter key="create_view" value="false"/>
+        <parameter key="attribute_filter_type" value="all"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="default" value="average"/>
+        <list key="columns"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="9.9.000" expanded="true" height="82" name="Apply Model (2)" width="90" x="916" y="340">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+        <description align="center" color="transparent" colored="false" width="126">Aqui aplica o replace missing na base de teste</description>
+      </operator>
+      <operator activated="true" class="weight_by_information_gain" compatibility="9.9.000" expanded="true" height="82" name="Weight by Information Gain" width="90" x="581" y="34">
+        <parameter key="normalize_weights" value="true"/>
+        <parameter key="sort_weights" value="true"/>
+        <parameter key="sort_direction" value="descending"/>
+      </operator>
+      <operator activated="true" class="select_by_weights" compatibility="9.9.000" expanded="true" height="103" name="Select by Weights" width="90" x="715" y="34">
+        <parameter key="weight_relation" value="greater equals"/>
+        <parameter key="weight" value="0.9"/>
+        <parameter key="k" value="2"/>
+        <parameter key="p" value="0.5"/>
+        <parameter key="deselect_unknown" value="true"/>
+        <parameter key="use_absolute_weights" value="false"/>
+      </operator>
+      <operator activated="true" class="naive_bayes" compatibility="9.9.000" expanded="true" height="82" name="Naive Bayes" width="90" x="849" y="34">
+        <parameter key="laplace_correction" value="true"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="9.9.000" expanded="true" height="82" name="Apply Model" width="90" x="983" y="187">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="9.9.000" expanded="true" height="82" name="Apply Model (3)" width="90" x="1117" y="340">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+        <description align="center" color="transparent" colored="false" width="126">Infere a base de teste no modelo treinado</description>
+      </operator>
+      <operator activated="true" class="performance" compatibility="9.9.000" expanded="true" height="82" name="Performance" width="90" x="1251" y="187">
+        <parameter key="use_example_weights" value="true"/>
+      </operator>
+      <operator activated="true" class="performance_classification" compatibility="9.9.000" expanded="true" height="82" name="Performance (2)" width="90" x="1251" y="340">
+        <parameter key="main_criterion" value="first"/>
+        <parameter key="accuracy" value="true"/>
+        <parameter key="classification_error" value="false"/>
+        <parameter key="kappa" value="false"/>
+        <parameter key="weighted_mean_recall" value="false"/>
+        <parameter key="weighted_mean_precision" value="false"/>
+        <parameter key="spearman_rho" value="false"/>
+        <parameter key="kendall_tau" value="false"/>
+        <parameter key="absolute_error" value="false"/>
+        <parameter key="relative_error" value="false"/>
+        <parameter key="relative_error_lenient" value="false"/>
+        <parameter key="relative_error_strict" value="false"/>
+        <parameter key="normalized_absolute_error" value="false"/>
+        <parameter key="root_mean_squared_error" value="false"/>
+        <parameter key="root_relative_squared_error" value="false"/>
+        <parameter key="squared_error" value="false"/>
+        <parameter key="correlation" value="false"/>
+        <parameter key="squared_correlation" value="false"/>
+        <parameter key="cross-entropy" value="false"/>
+        <parameter key="margin" value="false"/>
+        <parameter key="soft_margin_loss" value="false"/>
+        <parameter key="logistic_loss" value="false"/>
+        <parameter key="skip_undefined_labels" value="true"/>
+        <parameter key="use_example_weights" value="true"/>
+        <list key="class_weights"/>
+        <description align="center" color="transparent" colored="false" width="126">Avalia performance de teste</description>
+      </operator>
+      <connect from_op="Read CSV" from_port="output" to_op="Nominal to Numerical" to_port="example set input"/>
+      <connect from_op="Nominal to Numerical" from_port="example set output" to_op="Split Data" to_port="example set"/>
+      <connect from_op="Split Data" from_port="partition 1" to_op="Replace Missing Values" to_port="example set input"/>
+      <connect from_op="Split Data" from_port="partition 2" to_op="Apply Model (2)" to_port="unlabelled data"/>
+      <connect from_op="Replace Missing Values" from_port="example set output" to_op="Weight by Information Gain" to_port="example set"/>
+      <connect from_op="Replace Missing Values" from_port="original" to_op="Apply Model" to_port="unlabelled data"/>
+      <connect from_op="Replace Missing Values" from_port="preprocessing model" to_op="Apply Model (2)" to_port="model"/>
+      <connect from_op="Apply Model (2)" from_port="labelled data" to_op="Apply Model (3)" to_port="unlabelled data"/>
+      <connect from_op="Weight by Information Gain" from_port="weights" to_op="Select by Weights" to_port="weights"/>
+      <connect from_op="Weight by Information Gain" from_port="example set" to_op="Select by Weights" to_port="example set input"/>
+      <connect from_op="Select by Weights" from_port="example set output" to_op="Naive Bayes" to_port="training set"/>
+      <connect from_op="Naive Bayes" from_port="model" to_op="Apply Model" to_port="model"/>
+      <connect from_op="Apply Model" from_port="labelled data" to_op="Performance" to_port="labelled data"/>
+      <connect from_op="Apply Model" from_port="model" to_op="Apply Model (3)" to_port="model"/>
+      <connect from_op="Apply Model (3)" from_port="labelled data" to_op="Performance (2)" to_port="labelled data"/>
+      <connect from_op="Performance" from_port="performance" to_port="result 2"/>
+      <connect from_op="Performance (2)" from_port="performance" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
+    </process>
+  </operator>
+</process>
