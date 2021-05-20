@@ -17,17 +17,38 @@ O tema saúde mental tem crescido nos últimos anos, principalmente agora em vir
 
 Tanto o mundo científico quanto o empresarial está cada vez mais está preocupado com esse tema e infelizmente estamos passando pelo pior momento da pandemia no Brasil até agora.
 
-Pensando nisso, o objetivo desse trabalho é auxiliar na identificação se o paciente será diagnosticado com alguma condição de saúde mental (coluna 'Have you been diagnosed with a mental health condition by a medical professional?').
+Pensando nisso, o objetivo desse trabalho é auxiliar na identificação se o paciente será diagnosticado com alguma condição de saúde mental 
+
+(coluna 'Have you been diagnosed with a mental health condition by a medical professional?').
 
 Utilizamos uma base do Kaggle (https://www.kaggle.com/ron2112/mental-health-data) para iniciarmos esse estudo, embora os dados estejam em inglês,  os conceitos básicos são os mesmos, os mesmos tipos de sintomas são sentidos em qualquer lugar do mundo.
 
 ### Introdução
 
+O trabalho envolveu a análise de 8 modelos diferentes com o apoio da ferramenta o RapidMiner 9.9, em todos eles foram considerados as etapas: análise exploratória de dados, missing values e reavaliação dos atributos pelo peso.
+
 ### Fundamentação Teórica
+
+A mineração de dados pode ser considerada como uma parte do processo de Descoberta de Conhecimento em Banco de Dados (KDD – Knowledge Discovery in Databases).
+
+Dentro do universo da mineração de dados temos 5 classes de problemas:
+
+    Previsão
+    Classificação
+    Regressão
+    Agrupamento
+    Associação
+    
+  Destacamos que no caso desse trabalho foi feita análise através do método supervisionado - classificação.
+
 
 ### Modelagem
 
+
+
 ### Resultados
+
+Apresentar os percentuais
 
 ### Conclusão
 
