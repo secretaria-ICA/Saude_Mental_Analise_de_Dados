@@ -33,11 +33,7 @@ A mineração de dados pode ser considerada como uma parte do processo de Descob
 
 Dentro do universo da mineração de dados temos 5 classes de problemas:
 
-Previsão
-Classificação
-Regressão
-Agrupamento
-Associação
+Previsão, Classificação, Regressão, Agrupamento e Associação.
     
 Destacamos que no caso desse trabalho foi feita análise através do método supervisionado - classificação, onde o rótulo é categórico.
 
@@ -53,7 +49,7 @@ Diferentes modelos foram testados usando os seguintes algoritmos de classificaç
 
 ### Resultados
 
-    Decision Tree
+Decision Tree
 
     Deep Learning
 
