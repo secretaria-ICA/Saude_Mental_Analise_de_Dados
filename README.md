@@ -39,10 +39,16 @@ Dentro do universo da mineração de dados temos 5 classes de problemas:
     Agrupamento
     Associação
     
-  Destacamos que no caso desse trabalho foi feita análise através do método supervisionado - classificação.
+  Destacamos que no caso desse trabalho foi feita análise através do método supervisionado - classificação, onde o rótulo é categórico.
 
 
 ### Modelagem
+
+Primeiramente foi feita a análise dos dados para entender quais atributos manter no modelo, em seguida foi verificado quais atributos apresentaram missing values e com isso a funcionalidade de Replace Missing Values do RapidMiner foi utilizada.
+
+Para entender a relevância de cada atributo em relação ao rótulo a ser classificado, as funcionalidades Weight by Information Gain e Select by Weights do RapidMiner foram consideradas para que somente os atributos com pesos relevantes fossem considerados.  
+
+Balanceamento dos Dados e processo para gerar as duas bases tratadas - fiz um processo no RapidMiner para gerar as duas bases, a de treino e a de teste.
 
 
 
