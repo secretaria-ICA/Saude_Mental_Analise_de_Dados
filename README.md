@@ -52,10 +52,9 @@ Diferentes modelos foram testados usando os seguintes algoritmos de classificaç
 
 Decision Tree
 
-![image](https://user-images.githubusercontent.com/83094048/119058093-1602f600-b9a4-11eb-8127-c330f326aebb.png)
+![image](https://user-images.githubusercontent.com/83094048/119058288-74c86f80-b9a4-11eb-99e0-b3bd146e36d6.png)
 
-
-    Deep Learning
+Deep Learning
 
     KNN
 
