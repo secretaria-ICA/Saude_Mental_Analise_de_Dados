@@ -55,11 +55,24 @@ Testando diferentes modelos
     Testei diferentes modelos utilizando os seguintes algoritmos de classificação: 
         Decision Tree, Deep Learning, KNN, Naive Bayes, SVM, Random Forest, Random Tree e Neural Net. Abaixo, seguem as imagens dos processos no RapidMiner e suas respectivas acurácias: 
 
-
-
 ### Resultados
 
-Apresentar os percentuais
+Decision Tree
+
+Deep Learning
+
+KNN
+
+Naive Bayes
+
+SVM
+
+Random Forest
+
+Random Tree
+
+Neural Net
+
 
 ### Conclusão
 
