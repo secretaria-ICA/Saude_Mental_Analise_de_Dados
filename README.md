@@ -54,7 +54,13 @@ Decision Tree
 
 ![image](https://user-images.githubusercontent.com/83094048/119058288-74c86f80-b9a4-11eb-99e0-b3bd146e36d6.png)
 
+Acurácia: 80.30%
+
 Deep Learning
+
+![image](https://user-images.githubusercontent.com/83094048/119058749-5747d580-b9a5-11eb-9950-6121b2a1b0ae.png)
+
+Acurácia: 99.48%
 
     KNN
 
