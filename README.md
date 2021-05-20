@@ -48,7 +48,12 @@ Primeiramente foi feita a análise dos dados para entender quais atributos mante
 
 Para entender a relevância de cada atributo em relação ao rótulo a ser classificado, as funcionalidades Weight by Information Gain e Select by Weights do RapidMiner foram consideradas para que somente os atributos com pesos relevantes fossem considerados.  
 
-Balanceamento dos Dados e processo para gerar as duas bases tratadas - fiz um processo no RapidMiner para gerar as duas bases, a de treino e a de teste.
+O balanceamento dos dados e processo para gerar as duas bases tratadas, nesse ponto fiz um processo no RapidMiner para gerar as duas bases, a de treino e a de teste.
+
+Testando diferentes modelos
+
+    Testei diferentes modelos utilizando os seguintes algoritmos de classificação: 
+        Decision Tree, Deep Learning, KNN, Naive Bayes, SVM, Random Forest, Random Tree e Neural Net. Abaixo, seguem as imagens dos processos no RapidMiner e suas respectivas acurácias: 
 
 
 
