@@ -50,28 +50,25 @@ Para entender a relevância de cada atributo em relação ao rótulo a ser class
 
 O balanceamento dos dados e processo para gerar as duas bases tratadas, nesse ponto fiz um processo no RapidMiner para gerar as duas bases, a de treino e a de teste.
 
-Testando diferentes modelos
-
-    Testei diferentes modelos utilizando os seguintes algoritmos de classificação: 
-        Decision Tree, Deep Learning, KNN, Naive Bayes, SVM, Random Forest, Random Tree e Neural Net. Abaixo, seguem as imagens dos processos no RapidMiner e suas respectivas acurácias: 
+Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Decision Tree, Deep Learning, KNN, Naive Bayes, SVM, Random Forest, Random Tree e Neural Net.
 
 ### Resultados
 
-Decision Tree
+    Decision Tree
 
-Deep Learning
+    Deep Learning
 
-KNN
+    KNN
 
-Naive Bayes
+    Naive Bayes
 
-SVM
+    SVM
 
-Random Forest
+    Random Forest
 
-Random Tree
+    Random Tree
 
-Neural Net
+    Neural Net
 
 
 ### Conclusão
