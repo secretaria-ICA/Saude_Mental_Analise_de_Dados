@@ -54,21 +54,26 @@ Decision Tree
 
 Deep Learning
 
+![image](https://user-images.githubusercontent.com/83094048/119270649-1a155a80-bbd4-11eb-8b34-7bca1a31cd00.png)
+
 KNN
 
-    Naive Bayes
+![image](https://user-images.githubusercontent.com/83094048/119270748-88f2b380-bbd4-11eb-815d-3a3a21b58a4b.png)
 
-    SVM
+Naive Bayes
 
-    Random Forest
+![image](https://user-images.githubusercontent.com/83094048/119270781-b17aad80-bbd4-11eb-9935-6965cff9f3cf.png)
 
-    Random Tree
+Neural Net
 
-    Neural Net
+Random Forest
+
+Random Tree
+
+SVM
 
 
 ### Resultados
-
 
 
 ### Conclusão
