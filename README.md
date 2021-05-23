@@ -80,6 +80,15 @@ SVM
 
 ### Resultados
 
+1) Deep Learning 
+2) SVM 
+3) K-NN 
+4) Naive Bayes 
+5) Random Forest 
+6) Random Tree 
+7) Decision Tree
+8) Neural Net 
+
 ### Conclusão
 
 O modelo com a melhor acurácia...
