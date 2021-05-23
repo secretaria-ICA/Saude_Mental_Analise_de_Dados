@@ -42,7 +42,7 @@ Destacamos que no caso desse trabalho foi feita análise através do método sup
 Primeiramente foi feita a análise dos dados para entender quais atributos manter no modelo, em seguida transformei os atributos nominais para numéricos com o operador 
 Nominal to Numerical, além disso foi verificado quais atributos apresentaram missing values e com isso a funcionalidade de Replace Missing Values do RapidMiner foi utilizada.
 
-Para entender a relevância de cada atributo em relação ao rótulo a ser classificado, as funcionalidades Weight by Information Gain e Select by Weights do RapidMiner foram consideradas para que somente os atributos com pesos relevantes fossem considerados.  
+Para entender a relevância de cada atributo em relação ao rótulo a ser classificado, as funcionalidades Weight by Information Gain e Select by Weights do RapidMiner foram consideradas para que somente os atributos com pesos relevantes fossem tratados.  
 
 O balanceamento dos dados e processo para gerar as duas bases tratadas, nesse ponto fiz um processo no RapidMiner para gerar as duas bases, a de treino e a de teste.
 
