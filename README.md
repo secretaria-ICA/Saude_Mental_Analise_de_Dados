@@ -46,7 +46,7 @@ Nominal to Numerical, além disso foi verificado quais atributos apresentaram mi
 
 Para entender a relevância de cada atributo em relação ao rótulo a ser classificado, as funcionalidades Weight by Information Gain e Select by Weights do RapidMiner foram consideradas para que somente os atributos com pesos relevantes fossem tratados.  
 
-O balanceamento dos dados e processo para gerar as duas bases tratadas, nesse momento inseri a funcionalidade de Split Data no RapidMiner para gerar as duas bases, a de treino e a de teste.
+O balanceamento dos dados e processo para gerar as duas bases tratadas, nesse momento inseri a funcionalidade de Split Data no RapidMiner para gerar as duas bases, a de treino (0.8 de particção) e a de teste (0.2 de partição).
 
 Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Decision Tree, Deep Learning, KNN, Naive Bayes, SVM, Random Forest, Random Tree e Neural Net.
 
