@@ -66,15 +66,21 @@ Naive Bayes
 
 Neural Net
 
+![image](https://user-images.githubusercontent.com/83094048/119270858-31087c80-bbd5-11eb-8bc5-f3085b926165.png)
+
 Random Forest
+
+![image](https://user-images.githubusercontent.com/83094048/119270922-82b10700-bbd5-11eb-8e5b-6ed6c48566c2.png)
 
 Random Tree
 
+![image](https://user-images.githubusercontent.com/83094048/119271041-197dc380-bbd6-11eb-872b-d21736a48af8.png)
+
 SVM
 
+![image](https://user-images.githubusercontent.com/83094048/119271091-695c8a80-bbd6-11eb-8da8-8255699d8c79.png)
 
 ### Resultados
-
 
 ### Conclusão
 
