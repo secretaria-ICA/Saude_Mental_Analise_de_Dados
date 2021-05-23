@@ -83,19 +83,17 @@ SVM
 Índices de acurácia encontrados nos modelos:
 
 1) Deep Learning 99.39%
-2) K-NN 86.05%
-3) SVM 84.79%
-4) Decision Tree 80.30%
-5) Random Forest 79.34%
-6) Random Tree 70.62%
-7) Naive Bayes 68.18%
-
-
-8) Neural Net 
+2) Neural Net 93.81% / 0.923
+3) K-NN 86.05%
+4) SVM 84.79%
+5) Decision Tree 80.30%
+6) Random Forest 79.34%
+7) Random Tree 70.62%
+8) Naive Bayes 68.18%
 
 ### Conclusão
 
-O modelo com a melhor acurácia...
+O modelo com a melhor acurácia foi o Deep Learning com 99.39% e o pior foi Naive Bayes com 68.18%.
 
 ### Considerações finais
 
