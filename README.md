@@ -19,7 +19,7 @@ Frente a um cenário de pandemia, a comunidade médica se preocupa que uma epide
 
 Tanto o mundo científico quanto o empresarial está cada vez mais está preocupado com esse tema e infelizmente estamos passando pelo pior momento da pandemia no Brasil até agora.
 
-Pensando nisso, o objetivo desse trabalho é auxiliar na identificação se o paciente será diagnosticado com alguma condição de saúde mental. 
+Pensando nisso, o objetivo desse trabalho é auxiliar na identificação se o paciente será diagnosticado com alguma condição de transtorno de saúde mental.
 
 ### Introdução
 
@@ -36,6 +36,8 @@ Dentro do universo da mineração de dados temos 5 classes de problemas:
 Previsão, Classificação, Regressão, Agrupamento e Associação.
     
 Destacamos que no caso desse trabalho foi feita análise através do método supervisionado - classificação, onde o rótulo é categórico.
+
+O algoritmo recebe um conjunto de dados rotulados, ou seja, dados com as saídas corretas correspondentes, e o algoritmo aprende comparando a saída do modelo com a saída esperada, reajustando seus parâmetros até chegar em um limiar aceitável e pré-determinado a priori.
 
 ### Modelagem
 
@@ -95,7 +97,7 @@ SVM
 
 ### Conclusão
 
-O modelo com a melhor acurácia foi o Deep Learning com 99.39% e o pior foi Naive Bayes com 68.18%.
+O modelo com a melhor acurácia foi o Deep Learning com 99.39% e o pior foi Naive Bayes com 68.18%. Podemos destacar também que o modelo Deep Learning também é eficiente com aplicações tais como: reconhecimento de fala e imagem, processamento de linguagem natural, sistemas de recomendação, dentre outros. Particularmente nesse trabalho, existe a oportunidade de um direcionamento para a prevenção em termos de saúde mental.
 
 ### Considerações finais
 
