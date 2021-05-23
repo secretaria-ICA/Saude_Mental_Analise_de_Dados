@@ -74,6 +74,7 @@
           <parameter key="36" value="Do you work remotely?.true.polynominal.attribute"/>
         </list>
         <parameter key="read_not_matching_values_as_missings" value="false"/>
+        <description align="center" color="transparent" colored="false" width="126">Leitura do arquivo do Kaggle</description>
       </operator>
       <operator activated="true" class="nominal_to_numerical" compatibility="9.9.000" expanded="true" height="103" name="Nominal to Numerical" width="90" x="179" y="340">
         <parameter key="return_preprocessing_model" value="false"/>
@@ -95,6 +96,7 @@
         <list key="comparison_groups"/>
         <parameter key="unexpected_value_handling" value="all 0 and warning"/>
         <parameter key="use_underscore_in_name" value="false"/>
+        <description align="center" color="transparent" colored="false" width="126">Altera o tipo do atributo n&amp;#227;o num&amp;#233;rico para o tipo num&amp;#233;rico</description>
       </operator>
       <operator activated="true" class="split_data" compatibility="9.9.000" expanded="true" height="103" name="Split Data" width="90" x="313" y="340">
         <enumeration key="partitions">
@@ -104,6 +106,7 @@
         <parameter key="sampling_type" value="automatic"/>
         <parameter key="use_local_random_seed" value="false"/>
         <parameter key="local_random_seed" value="1992"/>
+        <description align="center" color="transparent" colored="false" width="126">Separa as bases de treino e teste</description>
       </operator>
       <operator activated="true" class="replace_missing_values" compatibility="9.9.000" expanded="true" height="103" name="Replace Missing Values" width="90" x="447" y="238">
         <parameter key="return_preprocessing_model" value="false"/>
@@ -122,16 +125,18 @@
         <parameter key="include_special_attributes" value="false"/>
         <parameter key="default" value="average"/>
         <list key="columns"/>
+        <description align="center" color="transparent" colored="false" width="126">Substitui valores em falta</description>
       </operator>
-      <operator activated="true" class="apply_model" compatibility="9.9.000" expanded="true" height="82" name="Apply Model (2)" width="90" x="916" y="340">
+      <operator activated="true" class="apply_model" compatibility="9.9.000" expanded="true" height="82" name="Base de teste" width="90" x="916" y="340">
         <list key="application_parameters"/>
         <parameter key="create_view" value="false"/>
-        <description align="center" color="transparent" colored="false" width="126">Aqui aplica o replace missing na base de teste</description>
+        <description align="center" color="transparent" colored="false" width="126">Aplica o replace missing na base de teste</description>
       </operator>
       <operator activated="true" class="weight_by_information_gain" compatibility="9.9.000" expanded="true" height="82" name="Weight by Information Gain" width="90" x="581" y="34">
         <parameter key="normalize_weights" value="true"/>
         <parameter key="sort_weights" value="true"/>
         <parameter key="sort_direction" value="descending"/>
+        <description align="center" color="transparent" colored="false" width="126">Calcula o peso do atributo</description>
       </operator>
       <operator activated="true" class="select_by_weights" compatibility="9.9.000" expanded="true" height="103" name="Select by Weights" width="90" x="715" y="34">
         <parameter key="weight_relation" value="greater equals"/>
@@ -140,6 +145,7 @@
         <parameter key="p" value="0.5"/>
         <parameter key="deselect_unknown" value="true"/>
         <parameter key="use_absolute_weights" value="false"/>
+        <description align="center" color="transparent" colored="false" width="126">Seleciona do atributo por peso</description>
       </operator>
       <operator activated="true" class="concurrency:parallel_random_forest" compatibility="9.9.000" expanded="true" height="103" name="Random Forest" width="90" x="849" y="34">
         <parameter key="number_of_trees" value="100"/>
@@ -159,18 +165,21 @@
         <parameter key="use_local_random_seed" value="false"/>
         <parameter key="local_random_seed" value="1992"/>
         <parameter key="enable_parallel_execution" value="true"/>
+        <description align="center" color="transparent" colored="false" width="126">Modelo</description>
       </operator>
-      <operator activated="true" class="apply_model" compatibility="9.9.000" expanded="true" height="82" name="Apply Model" width="90" x="983" y="187">
+      <operator activated="true" class="apply_model" compatibility="9.9.000" expanded="true" height="82" name="Base de Treino" width="90" x="983" y="187">
         <list key="application_parameters"/>
         <parameter key="create_view" value="false"/>
+        <description align="center" color="transparent" colored="false" width="126">Aplica o replace missing na base de treino</description>
       </operator>
-      <operator activated="true" class="apply_model" compatibility="9.9.000" expanded="true" height="82" name="Apply Model (3)" width="90" x="1117" y="340">
+      <operator activated="true" class="apply_model" compatibility="9.9.000" expanded="true" height="82" name="Base de teste (2)" width="90" x="1117" y="340">
         <list key="application_parameters"/>
         <parameter key="create_view" value="false"/>
         <description align="center" color="transparent" colored="false" width="126">Infere a base de teste no modelo treinado</description>
       </operator>
       <operator activated="true" class="performance" compatibility="9.9.000" expanded="true" height="82" name="Performance" width="90" x="1251" y="187">
         <parameter key="use_example_weights" value="true"/>
+        <description align="center" color="transparent" colored="false" width="126">Avalia performance de treino</description>
       </operator>
       <operator activated="true" class="performance_classification" compatibility="9.9.000" expanded="true" height="82" name="Performance (2)" width="90" x="1251" y="340">
         <parameter key="main_criterion" value="first"/>
@@ -203,18 +212,18 @@
       <connect from_op="Read CSV" from_port="output" to_op="Nominal to Numerical" to_port="example set input"/>
       <connect from_op="Nominal to Numerical" from_port="example set output" to_op="Split Data" to_port="example set"/>
       <connect from_op="Split Data" from_port="partition 1" to_op="Replace Missing Values" to_port="example set input"/>
-      <connect from_op="Split Data" from_port="partition 2" to_op="Apply Model (2)" to_port="unlabelled data"/>
+      <connect from_op="Split Data" from_port="partition 2" to_op="Base de teste" to_port="unlabelled data"/>
       <connect from_op="Replace Missing Values" from_port="example set output" to_op="Weight by Information Gain" to_port="example set"/>
-      <connect from_op="Replace Missing Values" from_port="original" to_op="Apply Model" to_port="unlabelled data"/>
-      <connect from_op="Replace Missing Values" from_port="preprocessing model" to_op="Apply Model (2)" to_port="model"/>
-      <connect from_op="Apply Model (2)" from_port="labelled data" to_op="Apply Model (3)" to_port="unlabelled data"/>
+      <connect from_op="Replace Missing Values" from_port="original" to_op="Base de Treino" to_port="unlabelled data"/>
+      <connect from_op="Replace Missing Values" from_port="preprocessing model" to_op="Base de teste" to_port="model"/>
+      <connect from_op="Base de teste" from_port="labelled data" to_op="Base de teste (2)" to_port="unlabelled data"/>
       <connect from_op="Weight by Information Gain" from_port="weights" to_op="Select by Weights" to_port="weights"/>
       <connect from_op="Weight by Information Gain" from_port="example set" to_op="Select by Weights" to_port="example set input"/>
       <connect from_op="Select by Weights" from_port="example set output" to_op="Random Forest" to_port="training set"/>
-      <connect from_op="Random Forest" from_port="model" to_op="Apply Model" to_port="model"/>
-      <connect from_op="Apply Model" from_port="labelled data" to_op="Performance" to_port="labelled data"/>
-      <connect from_op="Apply Model" from_port="model" to_op="Apply Model (3)" to_port="model"/>
-      <connect from_op="Apply Model (3)" from_port="labelled data" to_op="Performance (2)" to_port="labelled data"/>
+      <connect from_op="Random Forest" from_port="model" to_op="Base de Treino" to_port="model"/>
+      <connect from_op="Base de Treino" from_port="labelled data" to_op="Performance" to_port="labelled data"/>
+      <connect from_op="Base de Treino" from_port="model" to_op="Base de teste (2)" to_port="model"/>
+      <connect from_op="Base de teste (2)" from_port="labelled data" to_op="Performance (2)" to_port="labelled data"/>
       <connect from_op="Performance" from_port="performance" to_port="result 2"/>
       <connect from_op="Performance (2)" from_port="performance" to_port="result 1"/>
       <portSpacing port="source_input 1" spacing="0"/>
