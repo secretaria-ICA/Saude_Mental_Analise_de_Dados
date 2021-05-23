@@ -17,7 +17,7 @@ O tema saúde mental tem crescido nos últimos anos, principalmente agora em vir
 
 Tanto o mundo científico quanto o empresarial está cada vez mais está preocupado com esse tema e infelizmente estamos passando pelo pior momento da pandemia no Brasil até agora.
 
-Pensando nisso, o objetivo desse trabalho é auxiliar na identificação se o paciente será diagnosticado com alguma condição de saúde mental 
+Pensando nisso, o objetivo desse trabalho é auxiliar na identificação se o paciente será diagnosticado com alguma condição de saúde mental. 
 
 (coluna 'Have you been diagnosed with a mental health condition by a medical professional?').
 
@@ -48,21 +48,13 @@ O balanceamento dos dados e processo para gerar as duas bases tratadas, nesse po
 
 Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Decision Tree, Deep Learning, KNN, Naive Bayes, SVM, Random Forest, Random Tree e Neural Net.
 
-### Resultados
-
 Decision Tree
 
-![image](https://user-images.githubusercontent.com/83094048/119058288-74c86f80-b9a4-11eb-99e0-b3bd146e36d6.png)
-
-Acurácia: 80.30%
+![image](https://user-images.githubusercontent.com/83094048/119270579-c60a7600-bbd3-11eb-9197-03e1e9683fc5.png)
 
 Deep Learning
 
-![image](https://user-images.githubusercontent.com/83094048/119058749-5747d580-b9a5-11eb-9950-6121b2a1b0ae.png)
-
-Acurácia: 99.48%
-
-    KNN
+KNN
 
     Naive Bayes
 
@@ -73,6 +65,10 @@ Acurácia: 99.48%
     Random Tree
 
     Neural Net
+
+
+### Resultados
+
 
 
 ### Conclusão
