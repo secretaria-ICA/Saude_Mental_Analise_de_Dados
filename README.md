@@ -85,11 +85,11 @@ SVM
 1) Deep Learning 99.91% / 0.999
 2) Neural Net 93.81% / 0.923
 3) K-NN 86.05% / 0.824
-4) SVM 84.79% / 
-5) Decision Tree 80.30% /
-6) Random Forest 79.34% /
-7) Random Tree 70.62% /
-8) Naive Bayes 68.18% /
+4) SVM 84.79% / 0.790
+5) Decision Tree 80.30% / 0.749
+6) Random Forest 79.34% / 0.730
+7) Random Tree 70.62% / 0.615
+8) Naive Bayes 68.18% / 0.578
 
 ### Conclusão
 
