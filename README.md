@@ -80,16 +80,16 @@ SVM
 
 ### Resultados
 
-Índices de acurácia encontrados nos modelos:
+Índices de acurácia e kappa encontrados nos modelos:
 
-1) Deep Learning 99.39%
+1) Deep Learning 99.91% / 0.999
 2) Neural Net 93.81% / 0.923
-3) K-NN 86.05%
-4) SVM 84.79%
-5) Decision Tree 80.30%
-6) Random Forest 79.34%
-7) Random Tree 70.62%
-8) Naive Bayes 68.18%
+3) K-NN 86.05% / 0.824
+4) SVM 84.79% / 
+5) Decision Tree 80.30% /
+6) Random Forest 79.34% /
+7) Random Tree 70.62% /
+8) Naive Bayes 68.18% /
 
 ### Conclusão
 
