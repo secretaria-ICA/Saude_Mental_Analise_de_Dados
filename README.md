@@ -3,7 +3,7 @@ Projeto Final Bi Master - Business Intelligence Master
 #### Aluno: [Silvana de Jesus Silva](https://github.com/Silvana-js)
 #### Orientadora: [Manoela Kohler](https://github.com/manoelakohler)
 ---
-Data:
+Data: 23/05/2021
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
@@ -13,15 +13,17 @@ https://github.com/Silvana-js/Projeto_Final.git
 
 ### Resumo
 
-O tema saúde mental tem crescido nos últimos anos, principalmente agora em virtude da pandemia relacionada à COVID-19.
+O tema saúde mental tem crescido nos últimos anos, principalmente agora em virtude da pandemia relacionada à COVID-19. A saúde mental de uma pessoa está relacionada à forma como ela reage às exigências da vida e ao modo como harmoniza seus desejos, capacidades, ambições, ideias e emoções.Nos últimos anos, as doenças mentais tiveram um aumento considerável. Segundo a Organização Mundial de Saúde, o Brasil é considerado o país mais ansioso do mundo e o quinto mais depressivo. Mesmo assim, parte dessas pessoas não possuem assistência médica adequada. A depressão é o mal do século XXI.
+
+Frente a um cenário de pandemia, a comunidade médica se preocupa que uma epidemia paralela afete a saúde mental da população brasileira. O aumento do sofrimento psicológico, dos sintomas psíquicos e dos transtornos mentais já dão indícios nesse período que foi marcado como o primeiro pico dos casos. 
 
 Tanto o mundo científico quanto o empresarial está cada vez mais está preocupado com esse tema e infelizmente estamos passando pelo pior momento da pandemia no Brasil até agora.
 
 Pensando nisso, o objetivo desse trabalho é auxiliar na identificação se o paciente será diagnosticado com alguma condição de saúde mental. 
 
-Utilizamos uma base do Kaggle (https://www.kaggle.com/ron2112/mental-health-data) de Fevereiro de 2021 para iniciarmos esse estudo, embora os dados estejam em inglês,  os conceitos básicos são os mesmos, os mesmos tipos de sintomas são sentidos em qualquer lugar do mundo.
-
 ### Introdução
+
+Utilizamos uma base do Kaggle (https://www.kaggle.com/ron2112/mental-health-data) de Fevereiro de 2021 para iniciarmos esse estudo, embora os dados estejam em inglês,  os conceitos básicos são os mesmos, os mesmos tipos de sintomas são sentidos em qualquer lugar do mundo.
 
 O trabalho envolveu a análise de 8 modelos diferentes com o apoio da ferramenta o RapidMiner 9.9, em todos eles foram considerados as etapas: análise exploratória de dados, missing values e reavaliação dos atributos pelo peso.
 
