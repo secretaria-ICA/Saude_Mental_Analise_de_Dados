@@ -19,7 +19,7 @@ Tanto o mundo científico quanto o empresarial está cada vez mais está preocup
 
 Pensando nisso, o objetivo desse trabalho é auxiliar na identificação se o paciente será diagnosticado com alguma condição de saúde mental. 
 
-Utilizamos uma base do Kaggle (https://www.kaggle.com/ron2112/mental-health-data) para iniciarmos esse estudo, embora os dados estejam em inglês,  os conceitos básicos são os mesmos, os mesmos tipos de sintomas são sentidos em qualquer lugar do mundo.
+Utilizamos uma base do Kaggle (https://www.kaggle.com/ron2112/mental-health-data) de Fevereiro de 2021 para iniciarmos esse estudo, embora os dados estejam em inglês,  os conceitos básicos são os mesmos, os mesmos tipos de sintomas são sentidos em qualquer lugar do mundo.
 
 ### Introdução
 
@@ -80,13 +80,17 @@ SVM
 
 ### Resultados
 
-1) Deep Learning 
-2) SVM 
-3) K-NN 
-4) Naive Bayes 
-5) Random Forest 
-6) Random Tree 
-7) Decision Tree
+Índices de acurácia encontrados nos modelos:
+
+1) Deep Learning 99.39%
+2) K-NN 86.05%
+3) SVM 84.79%
+4) Decision Tree 80.30%
+5) Random Forest 79.34%
+6) Random Tree 70.62%
+7) Naive Bayes 68.18%
+
+
 8) Neural Net 
 
 ### Conclusão
