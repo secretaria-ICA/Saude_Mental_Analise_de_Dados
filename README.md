@@ -13,7 +13,7 @@ https://github.com/Silvana-js/Projeto_Final.git
 
 ### Resumo
 
-O tema saúde mental tem crescido nos últimos anos, principalmente agora em virtude da pandemia relacionada à COVID-19. A saúde mental de uma pessoa está relacionada à forma como ela reage às exigências da vida e ao modo como harmoniza seus desejos, capacidades, ambições, ideias e emoções.Nos últimos anos, as doenças mentais tiveram um aumento considerável. Segundo a Organização Mundial de Saúde, o Brasil é considerado o país mais ansioso do mundo e o quinto mais depressivo. Mesmo assim, parte dessas pessoas não possuem assistência médica adequada. A depressão é o mal do século XXI.
+O tema saúde mental tem crescido nos últimos anos, principalmente agora em virtude da pandemia relacionada à COVID-19. A saúde mental de uma pessoa está relacionada à forma como ela reage às exigências da vida e ao modo como harmoniza seus desejos, capacidades, ambições, ideias e emoções. Nos últimos anos, as doenças mentais tiveram um aumento considerável. Segundo a Organização Mundial de Saúde, o Brasil é considerado o país mais ansioso do mundo e o quinto mais depressivo. Mesmo assim, parte dessas pessoas não possuem assistência médica adequada. A depressão é o mal do século XXI.
 
 Frente a um cenário de pandemia, a comunidade médica se preocupa que uma epidemia paralela afete a saúde mental da população brasileira. O aumento do sofrimento psicológico, dos sintomas psíquicos e dos transtornos mentais já dão indícios nesse período que foi marcado como o primeiro pico dos casos. 
 
