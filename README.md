@@ -105,6 +105,8 @@ Gostaria de agradecer a todos os professores do curso e em especial à professor
 
 ---
 
+Período: 2019.2
+
 Matrícula: 192.671.163
 
 Pontifícia Universidade Católica do Rio de Janeiro
